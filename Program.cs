@@ -15,6 +15,9 @@ namespace EFCoreDemo
 
             var categoryID = 2;
 
+            //Adding new functionality
+            
+
             using (var ctx = new NorthwindContext())
             {
                 objcategory = ctx.Categories.SingleOrDefault(y => y.CategoryId == categoryID);
