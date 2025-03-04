@@ -13,7 +13,7 @@ namespace EFCoreDemo
 
             Category objcategory = null;
 
-            var categoryID = 1;
+            var categoryID = 2;
 
             using (var ctx = new NorthwindContext())
             {
